@@ -2,13 +2,15 @@ import SwiftUI
 import AppKit
 
 @main
-struct WizNotesApp: App {
+struct WizNoteApp: App {
     // Connects the AppDelegate to the SwiftUI app lifecycle
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            // Define a Settings scene to satisfy the requirement for a Scene.
+            // This won't create a window unless explicitly accessed by the user.
+            EmptyView()
         }
     }
 }
@@ -29,7 +31,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
             button.action = #selector(togglePopover(_:))
         }
-
 
         // Set up the popover with a SwiftUI view
         popover.contentViewController = NSHostingController(rootView: ContentView())

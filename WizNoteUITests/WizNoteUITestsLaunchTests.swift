@@ -1,13 +1,13 @@
 //
-//  WizNotesUITestsLaunchTests.swift
-//  WizNotesUITests
+//  WizNoteUITestsLaunchTests.swift
+//  WizNoteUITests
 //
 //  Created by pn022516 on 31/08/24.
 //
 
 import XCTest
 
-final class WizNotesUITestsLaunchTests: XCTestCase {
+final class WizNoteUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

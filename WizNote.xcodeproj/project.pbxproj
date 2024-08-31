@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		231A44802C8319920004E2B2 /* WizNoteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 231A447F2C8319920004E2B2 /* WizNoteIcon.png */; };
-		23CBBFB82C8300660066AE12 /* WizNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFB72C8300660066AE12 /* WizNotesApp.swift */; };
+		23CBBFB82C8300660066AE12 /* WizNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFB72C8300660066AE12 /* WizNoteApp.swift */; };
 		23CBBFBA2C8300660066AE12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFB92C8300660066AE12 /* ContentView.swift */; };
 		23CBBFBC2C8300670066AE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CBBFBB2C8300670066AE12 /* Assets.xcassets */; };
 		23CBBFC02C8300670066AE12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CBBFBF2C8300670066AE12 /* Preview Assets.xcassets */; };
-		23CBBFCA2C8300670066AE12 /* WizNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFC92C8300670066AE12 /* WizNotesTests.swift */; };
-		23CBBFD42C8300670066AE12 /* WizNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFD32C8300670066AE12 /* WizNotesUITests.swift */; };
-		23CBBFD62C8300670066AE12 /* WizNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFD52C8300670066AE12 /* WizNotesUITestsLaunchTests.swift */; };
+		23CBBFCA2C8300670066AE12 /* WizNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFC92C8300670066AE12 /* WizNoteTests.swift */; };
+		23CBBFD42C8300670066AE12 /* WizNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFD32C8300670066AE12 /* WizNoteUITests.swift */; };
+		23CBBFD62C8300670066AE12 /* WizNoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBFD52C8300670066AE12 /* WizNoteUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		231A447F2C8319920004E2B2 /* WizNoteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WizNoteIcon.png; path = ../../../../../Users/pn022516/Downloads/WizNoteIcon.png; sourceTree = "<group>"; };
 		231A44812C83199C0004E2B2 /* WizNoteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WizNoteIcon.png; sourceTree = "<group>"; };
-		23CBBFB42C8300660066AE12 /* WizNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23CBBFB72C8300660066AE12 /* WizNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNotesApp.swift; sourceTree = "<group>"; };
+		23CBBFB42C8300660066AE12 /* WizNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CBBFB72C8300660066AE12 /* WizNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNoteApp.swift; sourceTree = "<group>"; };
 		23CBBFB92C8300660066AE12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23CBBFBB2C8300670066AE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		23CBBFBD2C8300670066AE12 /* WizNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WizNotes.entitlements; sourceTree = "<group>"; };
+		23CBBFBD2C8300670066AE12 /* WizNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WizNote.entitlements; sourceTree = "<group>"; };
 		23CBBFBF2C8300670066AE12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		23CBBFC52C8300670066AE12 /* WizNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23CBBFC92C8300670066AE12 /* WizNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNotesTests.swift; sourceTree = "<group>"; };
-		23CBBFCF2C8300670066AE12 /* WizNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23CBBFD32C8300670066AE12 /* WizNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNotesUITests.swift; sourceTree = "<group>"; };
-		23CBBFD52C8300670066AE12 /* WizNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23CBBFC52C8300670066AE12 /* WizNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CBBFC92C8300670066AE12 /* WizNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNoteTests.swift; sourceTree = "<group>"; };
+		23CBBFCF2C8300670066AE12 /* WizNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CBBFD32C8300670066AE12 /* WizNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNoteUITests.swift; sourceTree = "<group>"; };
+		23CBBFD52C8300670066AE12 /* WizNoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizNoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +76,9 @@
 		23CBBFAB2C8300660066AE12 = {
 			isa = PBXGroup;
 			children = (
-				23CBBFB62C8300660066AE12 /* WizNotes */,
-				23CBBFC82C8300670066AE12 /* WizNotesTests */,
-				23CBBFD22C8300670066AE12 /* WizNotesUITests */,
+				23CBBFB62C8300660066AE12 /* WizNote */,
+				23CBBFC82C8300670066AE12 /* WizNoteTests */,
+				23CBBFD22C8300670066AE12 /* WizNoteUITests */,
 				23CBBFB52C8300660066AE12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,24 +86,23 @@
 		23CBBFB52C8300660066AE12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23CBBFB42C8300660066AE12 /* WizNotes.app */,
-				23CBBFC52C8300670066AE12 /* WizNotesTests.xctest */,
-				23CBBFCF2C8300670066AE12 /* WizNotesUITests.xctest */,
+				23CBBFB42C8300660066AE12 /* WizNote.app */,
+				23CBBFC52C8300670066AE12 /* WizNoteTests.xctest */,
+				23CBBFCF2C8300670066AE12 /* WizNoteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23CBBFB62C8300660066AE12 /* WizNotes */ = {
+		23CBBFB62C8300660066AE12 /* WizNote */ = {
 			isa = PBXGroup;
 			children = (
-				23CBBFB72C8300660066AE12 /* WizNotesApp.swift */,
+				23CBBFB72C8300660066AE12 /* WizNoteApp.swift */,
 				23CBBFB92C8300660066AE12 /* ContentView.swift */,
 				23CBBFBB2C8300670066AE12 /* Assets.xcassets */,
-				23CBBFBD2C8300670066AE12 /* WizNotes.entitlements */,
-				231A447F2C8319920004E2B2 /* WizNoteIcon.png */,
+				23CBBFBD2C8300670066AE12 /* WizNote.entitlements */,
 				23CBBFBE2C8300670066AE12 /* Preview Content */,
 			);
-			path = WizNotes;
+			path = WizNote;
 			sourceTree = "<group>";
 		};
 		23CBBFBE2C8300670066AE12 /* Preview Content */ = {
@@ -117,29 +114,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		23CBBFC82C8300670066AE12 /* WizNotesTests */ = {
+		23CBBFC82C8300670066AE12 /* WizNoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				23CBBFC92C8300670066AE12 /* WizNotesTests.swift */,
+				23CBBFC92C8300670066AE12 /* WizNoteTests.swift */,
 			);
-			path = WizNotesTests;
+			path = WizNoteTests;
 			sourceTree = "<group>";
 		};
-		23CBBFD22C8300670066AE12 /* WizNotesUITests */ = {
+		23CBBFD22C8300670066AE12 /* WizNoteUITests */ = {
 			isa = PBXGroup;
 			children = (
-				23CBBFD32C8300670066AE12 /* WizNotesUITests.swift */,
-				23CBBFD52C8300670066AE12 /* WizNotesUITestsLaunchTests.swift */,
+				23CBBFD32C8300670066AE12 /* WizNoteUITests.swift */,
+				23CBBFD52C8300670066AE12 /* WizNoteUITestsLaunchTests.swift */,
 			);
-			path = WizNotesUITests;
+			path = WizNoteUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23CBBFB32C8300660066AE12 /* WizNotes */ = {
+		23CBBFB32C8300660066AE12 /* WizNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23CBBFD92C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNotes" */;
+			buildConfigurationList = 23CBBFD92C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNote" */;
 			buildPhases = (
 				23CBBFB02C8300660066AE12 /* Sources */,
 				23CBBFB12C8300660066AE12 /* Frameworks */,
@@ -149,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = WizNotes;
+			name = WizNote;
 			productName = WizNotes;
-			productReference = 23CBBFB42C8300660066AE12 /* WizNotes.app */;
+			productReference = 23CBBFB42C8300660066AE12 /* WizNote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		23CBBFC42C8300670066AE12 /* WizNotesTests */ = {
+		23CBBFC42C8300670066AE12 /* WizNoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23CBBFDC2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNotesTests" */;
+			buildConfigurationList = 23CBBFDC2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNoteTests" */;
 			buildPhases = (
 				23CBBFC12C8300670066AE12 /* Sources */,
 				23CBBFC22C8300670066AE12 /* Frameworks */,
@@ -167,14 +164,14 @@
 			dependencies = (
 				23CBBFC72C8300670066AE12 /* PBXTargetDependency */,
 			);
-			name = WizNotesTests;
+			name = WizNoteTests;
 			productName = WizNotesTests;
-			productReference = 23CBBFC52C8300670066AE12 /* WizNotesTests.xctest */;
+			productReference = 23CBBFC52C8300670066AE12 /* WizNoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		23CBBFCE2C8300670066AE12 /* WizNotesUITests */ = {
+		23CBBFCE2C8300670066AE12 /* WizNoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23CBBFDF2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNotesUITests" */;
+			buildConfigurationList = 23CBBFDF2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNoteUITests" */;
 			buildPhases = (
 				23CBBFCB2C8300670066AE12 /* Sources */,
 				23CBBFCC2C8300670066AE12 /* Frameworks */,
@@ -185,9 +182,9 @@
 			dependencies = (
 				23CBBFD12C8300670066AE12 /* PBXTargetDependency */,
 			);
-			name = WizNotesUITests;
+			name = WizNoteUITests;
 			productName = WizNotesUITests;
-			productReference = 23CBBFCF2C8300670066AE12 /* WizNotesUITests.xctest */;
+			productReference = 23CBBFCF2C8300670066AE12 /* WizNoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23CBBFAF2C8300660066AE12 /* Build configuration list for PBXProject "WizNotes" */;
+			buildConfigurationList = 23CBBFAF2C8300660066AE12 /* Build configuration list for PBXProject "WizNote" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23CBBFB32C8300660066AE12 /* WizNotes */,
-				23CBBFC42C8300670066AE12 /* WizNotesTests */,
-				23CBBFCE2C8300670066AE12 /* WizNotesUITests */,
+				23CBBFB32C8300660066AE12 /* WizNote */,
+				23CBBFC42C8300670066AE12 /* WizNoteTests */,
+				23CBBFCE2C8300670066AE12 /* WizNoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231A44802C8319920004E2B2 /* WizNoteIcon.png in Resources */,
 				23CBBFC02C8300670066AE12 /* Preview Assets.xcassets in Resources */,
 				23CBBFBC2C8300670066AE12 /* Assets.xcassets in Resources */,
 			);
@@ -266,7 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CBBFBA2C8300660066AE12 /* ContentView.swift in Sources */,
-				23CBBFB82C8300660066AE12 /* WizNotesApp.swift in Sources */,
+				23CBBFB82C8300660066AE12 /* WizNoteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CBBFCA2C8300670066AE12 /* WizNotesTests.swift in Sources */,
+				23CBBFCA2C8300670066AE12 /* WizNoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CBBFD62C8300670066AE12 /* WizNotesUITestsLaunchTests.swift in Sources */,
-				23CBBFD42C8300670066AE12 /* WizNotesUITests.swift in Sources */,
+				23CBBFD62C8300670066AE12 /* WizNoteUITestsLaunchTests.swift in Sources */,
+				23CBBFD42C8300670066AE12 /* WizNoteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		23CBBFC72C8300670066AE12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 23CBBFB32C8300660066AE12 /* WizNotes */;
+			target = 23CBBFB32C8300660066AE12 /* WizNote */;
 			targetProxy = 23CBBFC62C8300670066AE12 /* PBXContainerItemProxy */;
 		};
 		23CBBFD12C8300670066AE12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 23CBBFB32C8300660066AE12 /* WizNotes */;
+			target = 23CBBFB32C8300660066AE12 /* WizNote */;
 			targetProxy = 23CBBFD02C8300670066AE12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,10 +418,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WizNotes/WizNotes.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = WizNote/WizNote.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WizNotes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WizNote/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -443,8 +443,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sickuritywizard.WizNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = sickuritywizard.WizNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -458,10 +459,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WizNotes/WizNotes.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = WizNote/WizNote.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WizNotes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WizNote/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -479,8 +484,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sickuritywizard.WizNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = sickuritywizard.WizNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -507,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WizNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WizNotes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WizNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WizNote";
 			};
 			name = Debug;
 		};
@@ -529,7 +535,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WizNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WizNotes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WizNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WizNote";
 			};
 			name = Release;
 		};
@@ -578,7 +584,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23CBBFAF2C8300660066AE12 /* Build configuration list for PBXProject "WizNotes" */ = {
+		23CBBFAF2C8300660066AE12 /* Build configuration list for PBXProject "WizNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23CBBFD72C8300670066AE12 /* Debug */,
@@ -587,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23CBBFD92C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNotes" */ = {
+		23CBBFD92C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23CBBFDA2C8300670066AE12 /* Debug */,
@@ -596,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23CBBFDC2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNotesTests" */ = {
+		23CBBFDC2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23CBBFDD2C8300670066AE12 /* Debug */,
@@ -605,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23CBBFDF2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNotesUITests" */ = {
+		23CBBFDF2C8300670066AE12 /* Build configuration list for PBXNativeTarget "WizNoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23CBBFE02C8300670066AE12 /* Debug */,

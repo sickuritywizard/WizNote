@@ -1,13 +1,13 @@
 //
-//  WizNotesUITests.swift
-//  WizNotesUITests
+//  WizNoteUITests.swift
+//  WizNoteUITests
 //
 //  Created by pn022516 on 31/08/24.
 //
 
 import XCTest
 
-final class WizNotesUITests: XCTestCase {
+final class WizNoteUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
