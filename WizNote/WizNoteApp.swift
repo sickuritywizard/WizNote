@@ -20,11 +20,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var popover = NSPopover()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        // Set the app to show in the Dock and be a regular app
+        NSApp.setActivationPolicy(.regular)
+
         // Create the status bar item with a pencil icon
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         
         if let button = statusItem?.button {
-            if let image = NSImage(named: "WizNoteIconx") {
+            if let image = NSImage(named: "WizNoteIcon") {
                 // Resize the image to fit the menu bar
                 image.size = NSSize(width: 19, height: 19) // Adjust the size as needed
                 button.image = image

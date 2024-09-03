@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "WizNoteIcon.png",
+      "filename" : "WizNoteIconx.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "WizNoteIconx 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "WizNoteIconx 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
